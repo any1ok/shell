@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.839.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-utils": "^1.2.21",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "is-promise": "^4.0.0",
+    "mocha": "^8.2.1",
+    "mybatis-mapper": "^0.6.5",
+    "native-promise-only": "^0.8.1",
+    "pg": "^8.5.1",
+    "pg-connection-string": "^2.4.0",
+    "pg-int8": "^1.0.1",
+    "pg-pool": "^3.2.2",
+    "pg-promise": "^10.9.2",
+    "pg-protocol": "^1.4.0",
+    "promise": "^8.1.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.5.0",
+    "shelljs": "^0.8.4",
+    "sync-request": "^6.1.0",
+    "underscore": "^1.12.0",
+    "util": "^0.12.3",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}

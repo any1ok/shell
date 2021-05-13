@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="SP_HOME_TEST">
+
+	<select id="TEST_API.SELECT">
+		SELECT 1 AS DUMMY 
+            , TEST_NAME 
+            , USER_NO 
+        FROM 
+            TB_PASS
+        WHERE 1 = 1 
+            AND PASS_NO = #{pass_no}
+	</select>
+</mapper>
